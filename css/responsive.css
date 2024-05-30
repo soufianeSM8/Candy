@@ -1,0 +1,335 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+    /*********** start main ************/
+      /*-------- big_slider ---------*/
+    /*-------- sweet_for_every ---------*/
+      /*-------- category_candy ---------*/
+  
+    /*-------- banner_hand_made ---------*/
+      /*-------- new_products ---------*/
+    /*-------- ice_creams ---------*/
+      /*-------- banner_promot ---------*/
+      .giftIdeas_banner{width: 37%;margin-right: auto;background-size: cover;}
+      .saveUp_banner{width: 60%;}
+    /*-------- best_sellers ---------*/
+   
+    .viewMore_products::before,.viewMore_products::after{width: 42%;}
+      /*-------- offfers ---------*/
+      .offfers{flex-wrap: nowrap; }
+      .offer_T{width: 49%;}
+    /*-------- brands ---------*/
+  
+    /*********** start footer **********/
+    /*-------- footer_items ---------*/
+    
+    /*-------- copyright ---------*/
+     
+      
+      
+    }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+     /*********** start main ************/
+    /*-------- big_slider ---------*/
+  /*-------- sweet_for_every ---------*/
+    /*-------- category_candy ---------*/
+    .category_candy{flex-wrap: nowrap;}
+    .category_box{width: 33%; margin: 0 3px ;height: auto;}
+    .category_box img{height: auto;}
+  /*-------- banner_hand_made ---------*/
+    /*-------- new_products ---------*/
+    .prod_box{width: 33%;margin: 0 auto;}
+  /*-------- ice_creams ---------*/
+    /*-------- banner_promot ---------*/
+    .giftIdeas_banner{width: 37%;margin-right: auto;background-size: cover;}
+    .saveUp_banner{width: 60%;}
+  /*-------- best_sellers ---------*/
+  .bestSellers_boxs{flex-wrap: nowrap;}
+  .best_Sellers_box{width: 33%; margin: 0 3px;}
+  .bestSellers_img{width: 80%;}
+  .viewMore_products::before,.viewMore_products::after{width: 39%;}
+    /*-------- offfers ---------*/
+    .offfers{flex-wrap: nowrap; }
+    .offer_T{width: 49%;}
+  /*-------- brands ---------*/
+    .brands{flex-wrap: nowrap;}
+
+  /*********** start footer **********/
+  /*-------- footer_items ---------*/
+  .footer_items{flex-wrap: nowrap;}
+  .F_items{width: 25%;padding: 10px;}
+  /*-------- copyright ---------*/
+    
+    
+  }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+     /*********** start header ***********/
+  /*-------- NoteandUser ---------*/
+  
+  /*-------- LandN_S ---------*/
+
+
+  /*********** start main ************/
+    /*-------- big_slider ---------*/
+  /*-------- sweet_for_every ---------*/
+    /*-------- category_candy ---------*/
+    .category_box{width: 33%;}
+    .category_box a{margin: 20px auto;}
+    .category_box img{height: 83%;}
+  /*-------- banner_hand_made ---------*/
+  .banner_hand_made{overflow: hidden;}
+  .banner_hand_made h1{margin-top: 40px;}
+    /*-------- new_products ---------*/
+    .prod_box{width: 32%;margin: 3px !important;}
+    .product_boxs{justify-content: ;}
+  /*-------- ice_creams ---------*/
+  .ice_disc, .img_ice{width: 50%;}
+  .img_ice img{width: 100%;}
+  .ice_disc{padding: 0 15px;}
+  .disc-info p{margin: 10px 0;}
+  .disc-info h1{font-size: 7vw;}
+  .disc-info p {font-size: 3vw;}
+    /*-------- banner_promot ---------*/
+    .giftIdeas_banner{width: 40%;margin: 0;}
+    .saveUp_banner{width: 60%;}
+    .saveUp_info{width: 80%;}
+  /*-------- best_sellers ---------*/
+  .bestSellers_boxs{justify-content: space-between;}
+  .bestSeller_2{margin: 0;}
+  .best_Sellers_box{width: 32% !important;}
+  .bestSellers_img{width: 80%;}
+    /*-------- offfers ---------*/
+    .offer_T{width: 49%;}
+  /*-------- brands ---------*/
+    
+
+  /*********** start footer **********/
+  /*-------- footer_items ---------*/
+  
+  .footer_items,.F_items ul li {justify-content: center;}
+  .F_items{width: 40%;margin: 20px; text-align: center;}
+
+  /*-------- copyright ---------*/
+  
+    
+  }
+  @media (min-width: 481px) and (max-width: 767px) {
+     /*********** start header ***********/
+  /*-------- NoteandUser ---------*/
+  
+  /*-------- LandN_S ---------*/
+
+
+  /*********** start main ************/
+    /*-------- big_slider ---------*/
+    .big_slider{height: 400px;}
+  /*-------- sweet_for_every ---------*/
+    /*-------- category_candy ---------*/
+ 
+    .category_box{margin: 0 3px; width: 70%;}
+  /*-------- banner_hand_made ---------*/
+    /*-------- new_products ---------*/
+    .prod_box{width: 400px;}
+  /*-------- ice_creams ---------*/
+    /*-------- banner_promot ---------*/
+  /*-------- best_sellers ---------*/
+  
+  
+    /*-------- offfers ---------*/
+    .offer_T{width: 100%;}
+  /*-------- brands ---------*/
+    
+
+  /*********** start footer **********/
+  /*-------- footer_items ---------*/
+  .F_items{width: 50% !important ; margin: 20px 0;}
+  .footer_items ul li a {width: auto;}
+  /*-------- copyright ---------*/
+    
+    
+  }
+  @media (min-width: 320px) and (max-width: 1024px) {
+        /*********** start header ***********/
+  /*-------- NoteandUser ---------*/
+  
+  /*-------- LandN_S ---------*/
+  .menu {display: flex !important;}
+   .navlist,.search{display: none;}
+  /*********** start main ************/
+    /*-------- big_slider ---------*/
+  
+  /*-------- sweet_for_every ---------*/
+    /*-------- category_candy ---------*/
+    .category_box img{height: ;}
+    .category_box{height: auto;}
+  /*-------- banner_hand_made ---------*/
+    /*-------- new_products ---------*/
+    .prod_box{margin: 20px;}
+    .viewMore_products::after,.viewMore_products::before{width: 34%;}
+  /*-------- ice_creams ---------*/
+    /*-------- banner_promot ---------*/
+  /*-------- best_sellers ---------*/
+  .bestSellers_boxs,.prod_box{justify-content: center;}
+  .best_Sellers_box{margin: 3px;width: 45%;}
+  .prod_box{margin: 15px;}
+  .bestSellers_img,.prod_box img{width: 80%;}
+    /*-------- offfers ---------*/
+  /*-------- brands ---------*/
+  .brands{justify-content: center;}
+    .brand_box{width: 115px;}
+    .brand_box img {width: 100%;}
+
+  /*********** start footer **********/
+  /*-------- footer_items ---------*/
+  /*-------- copyright ---------*/
+  
+    
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  @media (min-width: 320px) and (max-width: 767px) {
+     /*********** start header ***********/
+  /*-------- NoteandUser ---------*/
+  .NoteandUser{display: block;height: auto;}
+  .order_call,.user_box{width: 100%;padding: 5px 0;}
+  .user_box{padding-bottom: 15px;}
+  .user_box{justify-content: end;}
+  /*-------- LandN_S ---------*/
+
+
+  /*********** start main ************/
+    /*-------- big_slider ---------*/
+  /*-------- sweet_for_every ---------*/
+  .heading_sweetfor h1{font-size: 6vw;}
+  .heading_sweetfor h1:nth-of-type(1){font-size: 14vw;}
+  .paragh_sweet_for p{width: 90%;}
+    /*-------- category_candy ---------*/
+  /*-------- banner_hand_made ---------*/
+  .banner_hand_made{text-align: center;overflow: hidden;height: 300px;}
+  .banner_hand_made h1{margin:12px auto 20px;font-size: 11vw;width: auto;}
+  .banner_hand_made a {margin: 20px auto;} 
+    /*-------- new_products ---------*/
+    
+ 
+    
+  /*-------- ice_creams ---------*/
+  .ice_creams{position: relative;justify-content: stretch;overflow: hidden;}
+  .img_ice{width: 100%;}
+  .img_ice img {width: 100%;}
+  .ice_disc{position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%);text-align: center;width: 70%;}
+  .disc-info{position: static;transform: translate(0);}
+  .disc-info h1{font-size: 10vw;}
+  .disc-info p{font-size: 6vw;margin: 15px 0;line-height: normal;}
+  .disc-info a{margin: 0 auto;}
+    /*-------- banner_promot ---------*/
+
+  /*-------- best_sellers ---------*/
+    /*-------- offfers ---------*/
+    .giftIdeas_banner,.saveUp_banner{width: 100%;margin: 0;background-size: cover;margin: 8px 0;}
+    .giftIdeas_banner h1{font-size: 15vw;}
+    .saveUp_info{width: 80%;}
+    .saveUp_info h1{margin: 15px 0;font-size: 7vw;}
+  /*-------- brands ---------*/
+    
+
+  /*********** start footer **********/
+  /*-------- footer_items ---------*/
+  .footer_items,.footer_items ul{text-align: center;}
+  
+  .footer_items ul li {justify-content: center;}
+  .F_items{width: 100%;}
+  /*-------- copyright ---------*/
+  
+    
+    
+  }
+  @media (min-width: 320px) and (max-width: 480px) {
+     /*********** start header ***********/
+  /*-------- NoteandUser ---------*/
+  
+  /*-------- LandN_S ---------*/
+
+
+  /*********** start main ************/
+    /*-------- big_slider ---------*/
+    .big_slider {height: 300px;}
+  /*-------- sweet_for_every ---------*/
+
+    /*-------- category_candy ---------*/
+    .category_box{width: 320px;}
+  /*-------- banner_hand_made ---------*/
+  .banner_hand_made h1{margin-top: 50px;}
+    /*-------- new_products ---------*/
+    .prod_box{width: 300px;}
+    .viewMore_products::after,.viewMore_products::before{width: 22%;}
+  /*-------- ice_creams ---------*/
+  
+
+    /*-------- banner_promot ---------*/
+    
+  /*-------- best_sellers ---------*/
+  .best_Sellers_box{margin: 10px 0;}
+  .best_Sellers_box,.bestSellers_img{width: 100%;}
+    /*-------- offfers ---------*/
+    .ofL_disc h1{margin: 10px 0;}
+  /*-------- brands ---------*/
+    .brands{justify-content: center;}
+
+  /*********** start footer **********/
+  /*-------- footer_items ---------*/
+ 
+  /*-------- copyright ---------*/
+  
+    
+    
+  }
+  /*
+ 
+      /*********** start header ***********/
+  /*-------- NoteandUser ---------*/
+  
+  /*-------- LandN_S ---------*/
+
+
+  /*********** start main ************/
+    /*-------- big_slider ---------*/
+  /*-------- sweet_for_every ---------*/
+    /*-------- category_candy ---------*/
+  /*-------- banner_hand_made ---------*/
+    /*-------- new_products ---------*/
+  /*-------- ice_creams ---------*/
+    /*-------- banner_promot ---------*/
+  /*-------- best_sellers ---------*/
+    /*-------- offfers ---------*/
+  /*-------- brands ---------*/
+    
+
+  /*********** start footer **********/
+  /*-------- footer_items ---------*/
+  .footer_items ul li a {width: 100%;}
+  /*-------- copyright ---------*/
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
